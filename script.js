@@ -6,21 +6,33 @@
 // increment the count variable when the button is clicked
 // change the count-el in the HTML to reflect the new count 
 
+
+// let gitDoc = document.getElementById("welcome-el")
+
+// let name = "David Cody Hawley"
+// let greeting = "Hi my name is "
+// let totalGreeting = greeting + name;
+
+
+// gitDoc.innerText = totalGreeting
+
+// gitDoc.innerText += "🤝"
+
 let count = 0;
 let countEl = document.getElementById("count-el")
-let saveBtn = document.getElementById("count-p")
+let saveBtn = document.getElementById("save-l")
 
 
 
 function increment(){
-    count = count + 1;
+    count += 1;
     countEl.innerText = count 
    
     console.log(count)
 }
 
 function save(){
-    count = count;
-    saveBtn.innerText = count
-
+    let newCount = ` ${count + " - "}`
+    saveBtn.innerText += newCount
+   
 }
