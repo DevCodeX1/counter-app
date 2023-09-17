@@ -27,12 +27,12 @@ let saveBtn = document.getElementById("save-l")
 function increment(){
     count += 1;
     countEl.innerText = count 
-   
     console.log(count)
 }
 
 function save(){
     let newCount = ` ${count + " - "}`
-    saveBtn.innerText += newCount
-   
+    saveBtn.innerText += newCount 
+    countEl.innerText = 0 
+    count = 0;
 }
