@@ -8,6 +8,8 @@
 
 let count = 0;
 let countEl = document.getElementById("count-el")
+let saveBtn = document.getElementById("count-p")
+
 
 
 function increment(){
@@ -15,4 +17,10 @@ function increment(){
     countEl.innerText = count 
    
     console.log(count)
+}
+
+function save(){
+    count = count;
+    saveBtn.innerText = count
+
 }

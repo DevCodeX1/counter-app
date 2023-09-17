@@ -24,17 +24,25 @@ h3{
     text-align: center;
     
 }
+p{
+    color: rgb(10, 168, 18);
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
 button{
 
     border: none;
     padding-top: 10px;
     padding-bottom: 10px;
-    color: white;
+    color: rgb(190, 186, 186);
     font-weight: bold;
     width: 100px;
     margin-top: 5px;
     border-radius: 5px;
     margin-left: 150px;
+    background-color: aquamarine;
    
     
 
@@ -45,7 +53,7 @@ button{
 .container{
     background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/2bb0b6e2-4974-4daa-be42-aae08230b15e/d6xg4nk-1b52d447-8d7d-4f0f-86ed-23e6fd821c57.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzJiYjBiNmUyLTQ5NzQtNGRhYS1iZTQyLWFhZTA4MjMwYjE1ZVwvZDZ4ZzRuay0xYjUyZDQ0Ny04ZDdkLTRmMGYtODZlZC0yM2U2ZmQ4MjFjNTcuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.UcNL-g9NTNGszifcTZ6IikTQzMMW1u8ewpachNrTNlE");
     width: 400px;
-    height: 200px;
+    height: 300px;
     margin-left: 500px;
     margin-top: 350px;
     
